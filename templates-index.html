@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Idea Generator</h2>
+  <form method="post">
+    <input type="text" name="topic" placeholder="Enter a topic">
+    <button type="submit">Generate</button>
+  </form>
+  {% if idea %}
+    <p>{{ idea }}</p>
+  {% endif %}
+{% endblock %}
