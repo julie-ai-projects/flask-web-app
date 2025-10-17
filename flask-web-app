@@ -1,0 +1,11 @@
+flask-web-app/
+│
+├── app.py
+├── requirements.txt
+├── static/
+│   ├── style.css
+│   └── script.js
+├── templates/
+│   ├── base.html
+│   └── index.html
+└── README.md
